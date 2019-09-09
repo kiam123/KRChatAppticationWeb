@@ -1,4 +1,3 @@
-
 #sidebar {
   position: static;
   float: left;
@@ -7,22 +6,23 @@
   width: 25%;
 }
 
-#sidebar #title {
+#sidebar #banner {
   width: 100%;
   height: 15%;
   background-color: #CC0000;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+  padding: 10px 16px 10px 16px;
 }
 
-#sidebar #title #headerImg {
-  width: 100%;
+#sidebar #title {
+  /* width: 100%;
   height: 100%;
   align-items: center;
+  box-sizing: border-box;
   display: flex;
-  /* overflow: hidden; */
-  padding: 0 0 10px 16px;
-}
-
-
-#title img{
-  height: 50px;
+  overflow: hidden;
+  padding: 10px 16px 10px 16px; */
 }
