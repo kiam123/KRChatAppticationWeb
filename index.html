@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="css/header.css" type="text/css" >
   <link rel="stylesheet" href="css/sidebar.css" type="text/css">
   <link rel="stylesheet" href="css/content.css" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 
   <style type="text/css">
     html,
@@ -29,20 +33,71 @@
     <div id="sidebar">
       <div id=banner >
         <div id="title">
-          <img src="img/head.jpg" style="height: 50px;">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
         </div>
-        <h1>asdasd</h1>
+        <h1>聊天室</h1>
       </div>
 
+      <div id=content >
+        <div id="searchBar">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
 
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+        <div id="chatList">
+          <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
+        </div>
+      </div>
     </div>
     <div id="header">
 
     </div>
     <div id="content">
-
+      <button id="btn">enter</button>
     </div>
   </div>
 </body>
+<script>
+  $("#btn").click(function () {
+    var html = '<div id="chatList"><img src="img/head.jpg" style="height: 50px; border-radius: 50%;"></div>';
+    $("#content").append(html)
+  });
 
+</script>
 </html>

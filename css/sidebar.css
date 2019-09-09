@@ -1,7 +1,7 @@
 #sidebar {
   position: static;
   float: left;
-  background: #0080cd;
+  background: #FFFFFF;
   height: 100%;
   width: 25%;
 }
@@ -18,11 +18,31 @@
 }
 
 #sidebar #title {
-  /* width: 100%;
-  height: 100%;
-  align-items: center;
-  box-sizing: border-box;
-  display: flex;
+  color: rgba(0, 0, 0, 1);
+  font-size: 25px;
+  font-weight: bold;
   overflow: hidden;
-  padding: 10px 16px 10px 16px; */
+  text-overflow: ellipsis;
+  transition: all .25s;
+  margin-right: 12px;
+}
+
+#sidebar #content {
+  background: #0080cd;
+  height: 85%;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+#sidebar #searchBar {
+  align-items: center;
+  background-color: transparent;
+  color: rgba(0, 0, 0, .34);
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  height: 32px;
+  padding: 0 16px;
+  padding-top: 8px;
+  text-transform: uppercase;
 }
