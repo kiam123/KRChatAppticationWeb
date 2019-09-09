@@ -1,0 +1,28 @@
+
+#sidebar {
+  position: static;
+  float: left;
+  background: #0080cd;
+  height: 100%;
+  width: 25%;
+}
+
+#sidebar #title {
+  width: 100%;
+  height: 15%;
+  background-color: #CC0000;
+}
+
+#sidebar #title #headerImg {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  /* overflow: hidden; */
+  padding: 0 0 10px 16px;
+}
+
+
+#title img{
+  height: 50px;
+}
