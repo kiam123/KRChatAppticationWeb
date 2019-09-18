@@ -31,7 +31,7 @@
   background: #0080cd;
   height: 85%;
   width: 100%;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 #sidebar #searchBar {
