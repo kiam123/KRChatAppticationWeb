@@ -2,7 +2,7 @@
 .header {
   position: static;
   width: 75%;
-  height: 15%;
+  height: 100px;
   float: left;
   background-color: #76c7c0;
 }
