@@ -1,4 +1,4 @@
-#sidebar {
+.sidebar {
   position: static;
   float: left;
   background: #FFFFFF;
@@ -6,7 +6,7 @@
   width: 25%;
 }
 
-#sidebar #banner {
+.sidebar .banner {
   width: 100%;
   height: 15%;
   background-color: #CC0000;
@@ -17,7 +17,7 @@
   padding: 10px 16px 10px 16px;
 }
 
-#sidebar #title {
+.sidebar .title {
   color: rgba(0, 0, 0, 1);
   font-size: 25px;
   font-weight: bold;
@@ -27,14 +27,14 @@
   margin-right: 12px;
 }
 
-#sidebar #content {
+.sidebar .content {
   background: #0080cd;
   height: 85%;
   width: 100%;
   overflow-y: scroll;
 }
 
-#sidebar #searchBar {
+.sidebar .searchBar {
   align-items: center;
   background-color: transparent;
   color: rgba(0, 0, 0, .34);

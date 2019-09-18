@@ -6,13 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="css/header.css" type="text/css" >
+  <link rel="stylesheet" href="css/header.css" type="text/css">
   <link rel="stylesheet" href="css/sidebar.css" type="text/css">
   <link rel="stylesheet" href="css/content.css" type="text/css">
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
   <style type="text/css">
     html,
@@ -21,7 +19,7 @@
       margin: 0px;
     }
 
-    #divBody {
+    .divBody {
       height: 100%;
       width: 100%;
     }
@@ -29,35 +27,36 @@
 </head>
 
 <body>
-  <div id=divBody>
-    <div id="sidebar">
-      <div id=banner >
-        <div id="title">
+  <div class=divBody>
+    <div class="sidebar">
+      <div class=banner>
+        <div class="title">
           <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
         </div>
         <h1>聊天室</h1>
       </div>
 
-      <div id=content >
+      <div class=content>
         <!-- <div id="searchBar">
           <img src="img/head.jpg" style="height: 50px; border-radius: 50%;">
         </div> -->
 
       </div>
     </div>
-    <div id="header">
+    <div class="header">
 
     </div>
-    <div id="content">
+    <div class="content">
       <button id="btn">enter</button>
     </div>
   </div>
 </body>
 <!-- <script>
-  $("#btn").click(function () {
+  $(".btn").click(function () {
     var html = '<div id="chatList"><img src="img/head.jpg" style="height: 50px; border-radius: 50%;"></div>';
-    $("#content").append(html)
+    $(".content").append(html)
   });
 
 </script> -->
+
 </html>
