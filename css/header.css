@@ -4,5 +4,9 @@
   width: 75%;
   height: 100px;
   float: left;
-  background-color: #76c7c0;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
