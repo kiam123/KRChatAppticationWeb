@@ -75,9 +75,9 @@
               <div class="" style="display: table-cell;vertical-align: middle;">
                 <span><b>Kr Lee</b></span>
                 <br>
-                <span>好，你問啊</span>
-                <span>.</span>
-                <span>下午 4:28</span>
+                <span style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">好，你問啊asdasdasdasdasdasdasdasd</span>
+                <span style="display:inline-block;overflow: hidden;">.</span>
+                <span style="display:inline-block;overflow: hidden;">下午 4:28</span>
               </div>
             </div>
           </div>
@@ -95,9 +95,9 @@
               <div class="" style="display: table-cell;vertical-align: middle;">
                 <span><b>Kr Lee</b></span>
                 <br>
-                <span>好，你問啊</span>
-                <span>.</span>
-                <span>下午 4:28</span>
+                <span style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">好，你問啊asdasdasdasdasdasdasdasd</span>
+                <span style="display:inline-block;overflow: hidden;">.</span>
+                <span style="display:inline-block;overflow: hidden;">下午 4:28</span>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@
 
         </div>
 
-        <div class="content">
+        <div class="content" id="content">
           <div class="body" style="width:100%;height:auto;display:inline-block">
               <div class=" " style="bottom:0px;display:inline-block;margin-right:8px">
                 <img src="img/head.jpg" style="max-height: 28px;max-width: 28px; border-radius: 50%; background-color: rgba(0, 0, 0, .05);">
@@ -153,10 +153,10 @@
               </div>
           </div>
 
-          <div class="body" style="width:100%;height:auto;display:inline-block">
+          <div class="body" style="width:100%;height:auto;display:inline-block;">
               <div class="" style="float:right;text-align: right!important;">
                 <div class="message">
-                  asdasdasdasdsdhasjkdlaskdashdhaskjdhaskdhkashdkjashdkjhaskdhaskdhaskjdhasdasdasasdasd
+                  你好你好啊為什麼阿薩德為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼
                 </div>
                 <br>
                 <div class="message">
@@ -206,9 +206,16 @@
         </div>
 
         <div class="divInput">
-          <div class="form-group" style="margin-bottom:0px;width:100%" >
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="輸入信息">
+          <div class="form-group" style="margin-bottom:0px;width:100%;display:flex">
+            <div class="" style="width:1100px">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="輸入信息">
+            </div>
+            <div class="" style="width:32px;margin-left:10px">
+              <img src="img/like.png" style="max-height: 32px;">
+            </div>
           </div>
+
+
         </div>
 
       </div>
@@ -220,6 +227,10 @@
   </div>
 </body>
 <script>
+  //聊天室的scroll到最後
+  var objDiv = document.getElementById("content");
+  objDiv.scrollTop = objDiv.scrollHeight;
+
   $("#btn").click(function() {
     var html = '<div class="chatList" style="height:80px;align:center;padding-left:16px;padding-right:16px"> \
                   <div class="row" style="border-radius: 10px;margin:0;padding:0 15px;"> \

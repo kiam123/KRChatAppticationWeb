@@ -3,6 +3,7 @@
   height: 100%;
   overflow-y: scroll;
   padding: 8px 22px 0px 16px;
+  overflow-anchor: auto;
 }
 
 .divContainer .content .message {
@@ -10,11 +11,12 @@
   background: red;
   word-wrap: break-word;
   position: relative;
-  margin-bottom: 1px;
+  margin-bottom: 3px;
   background-color: rgba(0, 0, 0, .05);
   position: relative;
   max-width: 500px;
   /* width: auto; */
   padding: 8px 8px 8px 8px;
   display: inline-block;
+  text-align: left!important;
 }
