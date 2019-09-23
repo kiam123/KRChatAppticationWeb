@@ -14,5 +14,7 @@
   background-color: rgba(0, 0, 0, .05);
   position: relative;
   max-width: 500px;
+  /* width: auto; */
   padding: 8px 8px 8px 8px;
+  display: inline-block;
 }

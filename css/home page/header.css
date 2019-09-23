@@ -22,10 +22,10 @@
   height: 100px;
   position: absolute;
   top: 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-left: 16px;
-  padding-right: 16px box-sizing: border-box;
+  padding-right: 16px ;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  ;
 }
