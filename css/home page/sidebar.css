@@ -4,7 +4,7 @@
   background: #FFFFFF;
   height: 100%;
   width: 25%;
-  border-right: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -28,4 +28,11 @@
   width: 100%;
   overflow-y: scroll;
   padding-top: 110px;
+}
+
+.friendList {
+  height: 80px;
+  align: center;
+  padding-left: 16px;
+  padding-right: 16px
 }
