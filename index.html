@@ -37,6 +37,16 @@
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
     }
+
+    a:visited {
+      text-decoration:none;
+      color: rgba(0, 0, 0, .05);
+    }
+
+    a:hover {
+      text-decoration:none;
+      color: none;
+    }
   </style>
 </head>
 
@@ -64,7 +74,8 @@
           </div>
         </div>
 
-        <div class="chatList" style="height:80px;align:center;padding-left:16px;padding-right:16px">
+        <a href="">
+          <div class="chatList" style="height:80px;align:center;padding-left:16px;padding-right:16px">
           <div class="row" style="border-radius: 10px; background-color: rgba(0, 0, 0, .05);margin:0;padding:0 15px;">
             <div class="col-md-2 text-center" style="display: table;height:80px;padding:0;">
               <div class="" style="display: table-cell;vertical-align: middle;padding:0;">
@@ -83,7 +94,9 @@
             </div>
           </div>
         </div>
+      </a>
 
+      <a href="">
         <div class="friendList" style="height:80px;align:center;padding-left:16px;padding-right:16px">
           <div class="row" style="border-radius: 10px;margin:0;padding:0 15px;">
             <div class="col-md-2 text-center" style="display: table;height:80px;padding:0;">
@@ -103,6 +116,7 @@
             </div>
           </div>
         </div>
+      </a>
 
       </div>
 
@@ -129,6 +143,9 @@
             </div>
 
             <div class="" style="width:20%;display:inline-block;">
+              <div class="" style="display:inline-block;float:right">
+                <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
+              </div>
               <div class="" style="display:inline-block;float:right">
                 <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
               </div>
