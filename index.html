@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="css/home page/sidebar.css" type="text/css">
   <link rel="stylesheet" href="css/home page/content.css" type="text/css">
   <link rel="stylesheet" href="css/home page/input.css" type="text/css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
 
   <style type="text/css">
     html,
@@ -73,7 +75,8 @@
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="搜尋 Messenger">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="搜尋 Messenger">
               </div>
             </div>
           </div>
@@ -82,7 +85,8 @@
         <div class="" style="">
           <a href="javascript:void(0)" id="a1" class="chatlink">
             <div class="friendList">
-              <div class="row" style="border-radius: 10px; background-color: rgba(0, 0, 0, .05);margin:0;padding:0 15px;">
+              <div class="row"
+                style="border-radius: 10px; background-color: rgba(0, 0, 0, .05);margin:0;padding:0 15px;">
                 <div class="col-md-2 text-center" style="display: table;height:80px;padding:0;">
                   <div class="" style="display: table-cell;vertical-align: middle;padding:0;">
                     <img src="img/head.jpg" style="width: 50px; border-radius: 50%;">
@@ -93,7 +97,8 @@
                   <div class="" style="display: table-cell;vertical-align: middle;">
                     <span><b>Kr Lee</b></span>
                     <br>
-                    <span style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">好，你問啊asdasdasdasdasdasdasdasd</span>
+                    <span
+                      style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">好，你問啊asdasdasdasdasdasdasdasd</span>
                     <span style="display:inline-block;overflow: hidden;">.</span>
                     <span style="display:inline-block;overflow: hidden;">下午 4:28</span>
                   </div>
@@ -115,7 +120,8 @@
                   <div class="" style="display: table-cell;vertical-align: middle;">
                     <span><b>Kr Lee</b></span>
                     <br>
-                    <span style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">好，你問啊asdasdasdasdasdasdasdasd</span>
+                    <span
+                      style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">好，你問啊asdasdasdasdasdasdasdasd</span>
                     <span style="display:inline-block;overflow: hidden;">.</span>
                     <span style="display:inline-block;overflow: hidden;">下午 4:28</span>
                   </div>
@@ -135,7 +141,7 @@
 
 
 
-      <div class="" style="width:100%;height:100vh;position:relative;padding:100px 0 60px 0;">
+      <div class="" id="all" style="width:100%;height:100vh;position:relative;padding:100px 0 60px 0;">
 
         <div class="header">
           <div class="" style="height:100%; width : 100%; display : flex; align-items: center;">
@@ -151,24 +157,24 @@
             </div>
 
             <div class="" style="width:20%;display:inline-block;text-align: right;">
+              <a href="javascript:void(0)" id="home">
+                <div class="" style="display:inline-block;">
+                  <img src="img/home.png" style="max-height: 38px;">
+                </div>
+              </a>
               <a href="javascript:void(0)" id="notificationFriends">
-                <div class="" style="display:inline-block;background:lightyellow">
-                  <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
+                <div class="" style="display:inline-block;">
+                  <img src="img/list-50.png" style="max-height: 38px;">
                 </div>
               </a>
-              <a href="javascript:void(0)" id="">
+              <a href="javascript:void(0)" id="phoneCall">
                 <div class="" style="display:inline-block;">
-                  <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
+                  <img src="img/phone_call.png" style="max-height: 38px;">
                 </div>
               </a>
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" id="videoCall">
                 <div class="" style="display:inline-block;">
-                  <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
-                </div>
-              </a>
-                <a href="javascript:void(0)">
-                <div class="" style="display:inline-block;">
-                  <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
+                  <img src="img/video_call.png" style="max-height: 38px;">
                 </div>
               </a>
             </div>
@@ -177,125 +183,186 @@
 
         </div>
 
-        <div class="content" id="content">
-          <div class="" id="chatList">
+        <div class="" id="content" style="height:100%">
+          <div class="content" >
+            <div class="" id="chatList">
 
-            <div class="body" style="width:100%;height:auto;display:inline-block">
+              <div class="body" style="width:100%;height:auto;display:inline-block">
 
-              <div class=" " style="display:inline-block;margin-right:8px;bottom:0px;">
-                <img src="img/head.jpg" style="max-height: 28px;max-width: 28px; border-radius: 50%; background-color: rgba(0, 0, 0, .05);">
+                <div class=" " style="display:inline-block;margin-right:8px;bottom:0px;">
+                  <img src="img/head.jpg" style="max-height: 28px;max-width: 28px; border-radius: 50%; background-color: rgba(0, 0, 0, .05);">
+                </div>
+                <div class="" style="display:inline-block;">
+                  <div class="message">
+                    你好你好啊為什麼阿薩德為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼
+                  </div>
+                  <br>
+                  <div class="message">
+                    asd
+                  </div>
+                  <br>
+                  <div class="message">
+                    asd
+                  </div>
+                </div>
+
               </div>
-              <div class="" style="display:inline-block;">
-                <div class="message">
-                  你好你好啊為什麼阿薩德為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼
-                </div>
-                <br>
-                <div class="message">
-                  asd
-                </div>
-                <br>
-                <div class="message">
-                  asd
-                </div>
-              </div>
 
+              <div class="body" style="width:100%;height:auto;display:inline-block;position: relative;padding-right: 20px;">
+
+                <div class=" " style="bottom: 0px;display: inline-block;clear: both;margin: 2px 0 4px;position: relative;position: absolute;right: 0;">
+                  <img src="img/head.jpg" style="max-height: 15px;max-width: 15px; border-radius: 50%; background-color: rgba(0, 0, 0, .05);">
+                </div>
+                <div class="" style="float:right;text-align: right!important;">
+                  <div class="message">
+                    你好你好啊為什麼阿薩德為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼
+                  </div>
+                  <br>
+                  <div class="message">
+                    asd
+                  </div>
+                  <br>
+                  <div class="message">
+                    你好你好啊為什麼阿薩德為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼
+                  </div>
+                  <br>
+                  <div class="message">
+                    asd
+                  </div>
+                  <br>
+                </div>
+
+              </div>
             </div>
 
-            <div class="body" style="width:100%;height:auto;display:inline-block;position: relative;padding-right: 20px;">
-
-              <div class=" " style="bottom: 0px;display: inline-block;clear: both;margin: 2px 0 4px;position: relative;position: absolute;right: 0;">
-                <img src="img/head.jpg" style="max-height: 15px;max-width: 15px; border-radius: 50%; background-color: rgba(0, 0, 0, .05);">
+            
+            
+          </div>
+          
+          <div class="divInput" id="divInput">
+            <div class="form-group" style="margin-bottom:0px;width:100%;display:flex">
+              <div class="" style="width:1100px">
+                <input type="email" class="form-control" id="textInput" aria-describedby="emailHelp" placeholder="輸入信息">
               </div>
-              <div class="" style="float:right;text-align: right!important;">
-                <div class="message">
-                  你好你好啊為什麼阿薩德為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼
-                </div>
-                <br>
-                <div class="message">
-                  asd
-                </div>
-                <br>
-                <div class="message">
-                  你好你好啊為什麼阿薩德為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼為什麼
-                </div>
-                <br>
-                <div class="message">
-                  asd
-                </div>
-                <br>
+              <div class="" style="width:32px;margin-left:10px">
+                <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
               </div>
-
             </div>
+
+
           </div>
 
-
-          <!-- <div class="" style="margin-top:10px;margin-left:10px;margin-right:10px;height:auto;;border: 1px solid">
-            <div class="" style="margin-left:10px;margin-right:10px;height:60px;border-bottom: 1px solid">
-              <span>回復你的10則交友邀請</span>
-              <br>
-              <a href="javascript:void(0)">查看送出的邀請</a>
-            </div>
-
-            <div class="" style="display:inline-block;">
-              <div class="">
-                <img src="img/head.jpg" style="max-height: 38px;">
-              </div>
-              <div class="">
-                asdasd
-              </div>
-            </div>
-
-          </div> -->
-
-
+          
         </div>
+        <!-- <img src="img/like.png" style="max-height: 38px;"> -->
 
-        <div class="divInput">
-          <div class="form-group" style="margin-bottom:0px;width:100%;display:flex">
-            <div class="" style="width:1100px">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="輸入信息">
+        <!-- TODO 還需要更改style，不能使用friendList的class-->
+        <!-- <div class="" style="overflow-y: scroll;height: 100%;">
+          <div class=""
+            style="height:auto;border: 1px solid;margin-top:20px;margin-left:70px;margin-right:70px;">
+            <div class="" style="border-bottom: 1px solid">
+              <div class="" style="margin-left:10px;margin-right:10px;height:60px;">
+                <span>回復你的10則交友邀請</span>
+                <br>
+                <a href="javascript:void(0)">查看送出的邀請</a>
+              </div>
             </div>
-            <div class="" style="width:32px;margin-left:10px">
-              <img src="img/send-icon-png-13.jpg" style="max-height: 38px;">
-              <!-- <img src="img/like.png" style="max-height: 38px;"> -->
+
+            <div class="friendList">
+              <div class="row" style="margin:0;padding:0 0;">
+                <div class="col-md-1 text-center" style="display: table;height:80px;padding:0;">
+                  <div class="" style="display: table-cell;vertical-align: middle;padding:0;">
+                    <img src="img/head.jpg" style="width: 50px;">
+                  </div>
+                </div>
+
+                <div class="col-md-9" style="display: table;height:80px;padding-left:0px;padding-right:0px">
+                  <div class="" style="display: table-cell;vertical-align: middle;">
+                    <span><b>Kr Lee</b></span>
+                    <br>
+                    <span
+                      style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">1位共同朋友</span>
+                  </div>
+                </div>
+                <div class="col-md-2"
+                  style="display: flex;align-items: center;height:80px;padding-left:0px;padding-right:0px">
+                  <div class="" style="">
+                    <button type="button" name="button">確認</button>
+                    <button type="button" name="button">刪除邀請</button>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
+        </div> -->
 
-
-        </div>
 
       </div>
 
+
+
     </div>
-
-
-
-  </div>
 </body>
 <script>
   //聊天室的scroll到最後
   var objDiv = document.getElementById("content");
   objDiv.scrollTop = objDiv.scrollHeight;
 
-  $("#notificationFriends").click(function() {
-    var html = '<div class="" style="margin-top:10px;margin-left:10px;margin-right:10px;height:auto;;border: 1px solid"> \
-                  <div class="" style="margin-left:10px;margin-right:10px;height:60px;border-bottom: 1px solid"> \
-                    <span>回復你的10則交友邀請</span> \
+  $("#notificationFriends").click(function () {
+    var html = '<div class="" style="overflow-y: scroll;height: 100%;"> \
+          <div class="" \
+            style="height:auto;border: 1px solid;margin-top:20px;margin-left:70px;margin-right:70px;"> \
+            <div class="" style="border-bottom: 1px solid"> \
+              <div class="" style="margin-left:10px;margin-right:10px;height:60px;"> \
+                <span>回復你的10則交友邀請</span> \
+                <br> \
+                <a href="javascript:void(0)">查看送出的邀請</a> \
+              </div> \
+            </div> \
+            <div class="friendList"> \
+              <div class="row" style="margin:0;padding:0 0;"> \
+                <div class="col-md-1 text-center" style="display: table;height:80px;padding:0;"> \
+                  <div class="" style="display: table-cell;vertical-align: middle;padding:0;"> \
+                    <img src="img/head.jpg" style="width: 50px;"> \
+                  </div> \
+                </div> \
+                <div class="col-md-9" style="display: table;height:80px;padding-left:0px;padding-right:0px"> \
+                  <div class="" style="display: table-cell;vertical-align: middle;"> \
+                    <span><b>Kr Lee</b></span> \
                     <br> \
-                    <a href="javascript:void(0)">查看送出的邀請</a> \
+                    <span \
+                      style="display:inline-block;text-overflow:ellipsis;width:100px;overflow:hidden;white-space:nowrap;">1位共同朋友</span> \
                   </div> \
-                  <div class="" style="display:inline-block;"> \
-                    <div class=""> \
-                      <img src="img/head.jpg" style="max-height: 38px;"> \
-                    </div> \
-                    <div class=""> \
-                      asdasd \
-                    </div> \
+                </div> \
+                <div class="col-md-2" \
+                  style="display: flex;align-items: center;height:80px;padding-left:0px;padding-right:0px"> \
+                  <div class="" style=""> \
+                    <button type="button" name="button">確認</button> \
+                    <button type="button" name="button">刪除邀請</button> \
                   </div> \
-                </div>';
-    $("#chatList").css("display", "none");
-    $("#content").append(html);
+                </div> \
+              </div> \
+            </div> \
+          </div> \
+        </div>';
+    // $("#chatList").css("display", "none");
+    // $("#divInput").css("display", "none");
 
+    $("#all #content").remove();
+    $("#all").append(html);
+
+  });
+
+  var input = document.getElementById("textInput");
+
+  input.addEventListener("keyup", function (event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+      // // Cancel the default action, if needed
+      // event.preventDefault();
+      javascript: alert(input.value);
+    }
   });
 </script>
 
